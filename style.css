@@ -1,3 +1,21 @@
 *{
     text-align: center;
 }
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 100px;
+    margin: auto;
+}
+
+button{
+    width: auto;
+    height: 130px;
+    font-size: 30px;
+}
+
+body{
+    background-image: url("background3.jpg");
+    background-size: cover;
+}
