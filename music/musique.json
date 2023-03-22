@@ -134,13 +134,13 @@
             "theme": "emissions",
             "annee": "1980",
             "nom": "champs elysees la 1er emission",
-            "artiste": "",
+            "artiste": ""
         },
         "club-dorothee": {
             "theme": "emissions",
             "annee": "1990",
             "nom": "club dorothee",
-            "artiste": "",
+            "artiste": ""
         },
         "coucou-cest-nous": {
             "theme": "emissions",
@@ -184,44 +184,108 @@
             "nom": "jeux sans frontiere",
             "artiste": ""
         },
-        "la-derniere-seance-deddy-mitchel": {
+        "la-derniere-seance": {
             "theme": "emissions",
-            "annee": "19",
+            "annee": "1980",
             "nom": "la dernier sénace d'Eddy Michel",
             "artiste": ""
         },
-        "": {
+        "la-sequence-du-spectateur": {
             "theme": "emissions",
-            "annee": "19",
-            "nom": "",
+            "annee": "1970",
+            "nom": "la sequence du spéctateur",
             "artiste": ""
         },
-        "": {
+        "gym-tonic": {
             "theme": "emissions",
-            "annee": "19",
-            "nom": "",
+            "annee": "1980",
+            "nom": "gym tonic",
             "artiste": ""
         },
-        "": {
+        "le-juste-prix": {
             "theme": "emissions",
-            "annee": "19",
-            "nom": "",
+            "annee": "1972",
+            "nom": "le juste prix",
             "artiste": ""
         },
-        "": {
+        "le-village-dans-les-nuages": {
             "theme": "emissions",
-            "annee": "19",
-            "nom": "",
+            "annee": "1980",
+            "nom": "le village dans les nuages",
             "artiste": ""
         },
-        "": {
+        "les-animaux-du-monde": {
             "theme": "emissions",
-            "annee": "19",
-            "nom": "",
+            "annee": "1970",
+            "nom": "les animaux du monde",
             "artiste": ""
         },
-        
-
+        "les-jeux-de-20h": {
+            "theme": "emissions",
+            "annee": "1970",
+            "nom": "les jeux de 20h",
+            "artiste": ""
+        },
+        "lheur-de-verite": {
+            "theme": "emissions",
+            "annee": "1970",
+            "nom": "l'heur de vérité",
+            "artiste": ""
+        },
+        "millionnaire": {
+            "theme": "emissions",
+            "annee": "1996",
+            "nom": "millionnaire",
+            "artiste": ""
+        },
+        "motus": {
+            "theme": "emissions",
+            "annee": "1980",
+            "nom": "motus",
+            "artiste": ""
+        },
+        "pas-de-pitie-pour-les-croissants": {
+            "theme": "emissions",
+            "annee": "1980",
+            "nom": "pas de pitié pour les croissants",
+            "artiste": ""
+        },   
+        "sebastien-cest-fou": {
+            "theme": "emissions",
+            "annee": "1988",
+            "nom": "sebastien c'est fou",
+            "artiste": ""
+        },
+        "taratata": {
+            "theme": "emissions",
+            "annee": "1990",
+            "nom": "taratata",
+            "artiste": ""
+        },
+        "telefoot": {
+            "theme": "emissions",
+            "annee": "1970",
+            "nom": "telefoot",
+            "artiste": ""
+        },
+        "temps-x": {
+            "theme": "emissions",
+            "annee": "1970",
+            "nom": "temps-x",
+            "artiste": ""
+        },
+        "thalassa": {
+            "theme": "emissions",
+            "annee": "1970",
+            "nom": "thalassa",
+            "artiste": ""
+        },
+        "vitamine-lemission-qui-donne-bonne-mine": {
+            "theme": "emissions",
+            "annee": "1983",
+            "nom": "",
+            "artiste": ""
+        }
 
     }
     
