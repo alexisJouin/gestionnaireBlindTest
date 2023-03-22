@@ -204,7 +204,7 @@
         },
         "le-juste-prix": {
             "theme": "emissions",
-            "annee": "1972",
+            "annee": "1970",
             "nom": "le juste prix",
             "artiste": ""
         },
@@ -287,6 +287,219 @@
             "artiste": ""
         }
 
+    },
+    "films":{
+        "bagdad-cafe": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "bagdad café",
+            "artiste": ""
+        },
+        "beverly-hills-cop-axel-foley": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "beverly hills cop axel foley",
+            "artiste": ""
+        },
+        "dirty-dancing-shes-like-the-wind": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "dirty dancing shes like the wind",
+            "artiste": ""
+        },
+        "dirty-dancing-time-of-my-life": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "dirty dancing time of my life",
+            "artiste": ""
+        },
+        "et": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "E.T",
+            "artiste": ""
+        },
+        "flashdance": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "flashdance",
+            "artiste": ""
+        },
+        "footloose": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "footloose",
+            "artiste": ""
+        },
+        "ghost": {
+            "theme": "films",
+            "annee": "1990",
+            "nom": "ghost",
+            "artiste": ""
+        },
+        "rain-man": {
+            "theme": "films",
+            "annee": "19",
+            "nom": "rain man",
+            "artiste": ""
+        },
+        "hey-pachuco-the-mask": {
+            "theme": "films",
+            "annee": "1990",
+            "nom": "hey-pachuco-the-mask",
+            "artiste": ""
+        },
+        "il-etait-une-fois-dans-louest": {
+            "theme": "films",
+            "annee": "1960",
+            "nom": "il etait une fois dans l'ouest",
+            "artiste": ""
+        },
+        "indiana-jones": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "indiana jones",
+            "artiste": ""
+        },
+        "la-7eme-companie": {
+            "theme": "films",
+            "annee": "1970",
+            "nom": "la 7eme companie",
+            "artiste": ""
+        },
+        "la-boum": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "la boum",
+            "artiste": ""
+        },
+        "la-soupe-aux-choux": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "la soupe aux choux",
+            "artiste": ""
+        },
+        "lamour-en-heritage": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "l'amour en héritage",
+            "artiste": ""
+        },
+        "le-gendarme-de-st-tropez": {
+            "theme": "films",
+            "annee": "1960",
+            "nom": "le gendarme de st-tropez",
+            "artiste": ""
+        },
+        "le-parrain": {
+            "theme": "films",
+            "annee": "1970",
+            "nom": "le parrain",
+            "artiste": ""
+        },
+        "le-pere-noel-est-une-ordure": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "le père noël est une ordure",
+            "artiste": ""
+        },
+        "les-bronzes": {
+            "theme": "films",
+            "annee": "1970",
+            "nom": "les bronzés",
+            "artiste": ""
+        },
+        "les-visiteurs": {
+            "theme": "films",
+            "annee": "1990",
+            "nom": "les visiteurs",
+            "artiste": ""
+        },
+        "lhistoire-sans-fin": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "l'histoire sans fin",
+            "artiste": ""
+        },
+        "mission-impossible": {
+            "theme": "films",
+            "annee": "1990",
+            "nom": "mission impossible",
+            "artiste": ""
+        },
+        "platoon": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "platoon",
+            "artiste": ""
+        },
+        "la-folie-des-grandeurs": {
+            "theme": "films",
+            "annee": "1970",
+            "nom": "la folie des grandeurs",
+            "artiste": ""
+        },
+        "pretty-woman": {
+            "theme": "films",
+            "annee": "1990",
+            "nom": "pretty woman",
+            "artiste": ""
+        },
+        "ghostbuster": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "ghostbuster",
+            "artiste": ""
+        },
+        "retour-vers-le-futur": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "retour vers le futur",
+            "artiste": ""
+        },
+        "rocky": {
+            "theme": "films",
+            "annee": "1970",
+            "nom": "rocky",
+            "artiste": ""
+        },
+        "star-wars": {
+            "theme": "films",
+            "annee": "1970",
+            "nom": "",
+            "artiste": ""
+        },
+        "super-man": {
+            "theme": "films",
+            "annee": "1970",
+            "nom": "super man",
+            "artiste": ""
+        },
+        "the-blues-brothers": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "the blues brothers",
+            "artiste": ""
+        },
+        "the-exorcist": {
+            "theme": "films",
+            "annee": "1970",
+            "nom": "the exorcist",
+            "artiste": ""
+        },
+        "top-gun": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "top gun",
+            "artiste": ""
+        },
+        "you-call-it-love": {
+            "theme": "films",
+            "annee": "1990",
+            "nom": "you call it love",
+            "artiste": ""
+        }
+            
     }
     
 }
