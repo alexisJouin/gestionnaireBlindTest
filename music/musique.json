@@ -6,5 +6,119 @@
             "nom":"albator"
             
         }
+    },
+
+    "emissions":{
+        "7-sur-7":{
+            "theme":"emissions",
+            "annee":"1990",
+            "nom":"7 sur 7",
+            "artiste":""
+        },
+        "20h-tf1":{
+            "theme":"emissions",
+            "annee":"1990",
+            "nom":"20h tf1",
+            "artiste":""
+        },
+        "30-millons-damis": {
+            "theme": "emissions",
+            "annee": "1990",
+            "nom": "30 millions d'amis",
+            "artiste": ""
+        },
+        "champs-elysees-la-1er-emission": {
+            "theme": "emissions",
+            "annee": "1980",
+            "nom": "champs elysees la 1er emission",
+            "artiste": "",
+        },
+        "club-dorothee": {
+            "theme": "emissions",
+            "annee": "1990",
+            "nom": "club dorothee",
+            "artiste": "",
+        },
+        "coucou-cest-nous": {
+            "theme": "emissions",
+            "annee": "1990",
+            "nom": "coucou c'est nous",
+            "artiste": ""
+        },
+        "la-classe": {
+            "theme": "emissions",
+            "annee": "1980",
+            "nom": "la classe",
+            "artiste": ""
+        },
+        "des-chiffres-et-des-lettres": {
+            "theme": "emissions",
+            "annee": "1960",
+            "nom": "des chiffres et des lettres",
+            "artiste": ""
+        },
+        "top-50": {
+            "theme": "emissions",
+            "annee": "1980",
+            "nom": "top 50",
+            "artiste": ""
+        },
+        "amuse-3": {
+            "theme": "emissions",
+            "annee": "1990",
+            "nom": "amuse 3",
+            "artiste": ""
+        },
+        "interville": {
+            "theme": "emissions",
+            "annee": "1980",
+            "nom": "interville",
+            "artiste": ""
+        },
+        "jeux-sans-frontiere": {
+            "theme": "emissions",
+            "annee": "1988",
+            "nom": "jeux sans frontiere",
+            "artiste": ""
+        },
+        "la-derniere-seance-deddy-mitchel": {
+            "theme": "emissions",
+            "annee": "19",
+            "nom": "la dernier sénace d'Eddy Michel",
+            "artiste": ""
+        },
+        "": {
+            "theme": "emissions",
+            "annee": "19",
+            "nom": "",
+            "artiste": ""
+        },
+        "": {
+            "theme": "emissions",
+            "annee": "19",
+            "nom": "",
+            "artiste": ""
+        },
+        "": {
+            "theme": "emissions",
+            "annee": "19",
+            "nom": "",
+            "artiste": ""
+        },
+        "": {
+            "theme": "emissions",
+            "annee": "19",
+            "nom": "",
+            "artiste": ""
+        },
+        "": {
+            "theme": "emissions",
+            "annee": "19",
+            "nom": "",
+            "artiste": ""
+        },
+        
+
     }
+    
 }
