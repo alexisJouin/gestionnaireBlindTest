@@ -3,8 +3,112 @@
         "albator":{
             "theme":"animes",
             "annee":"1970",
-            "nom":"albator"
+            "nom":"albator",
+            "artiste":""
             
+        },
+        "bibifoc":{
+            "theme": "animes",
+            "annee": "1980",
+            "nom": "bibifoc",
+            "artiste": ""
+        },
+        "bouba":{
+            "theme": "animes",
+            "annee": "1970",
+            "nom": "bouba",
+            "artiste": ""
+        },
+        "calimero":{
+            "theme": "animes",
+            "annee": "1960",
+            "nom": "calimero",
+            "artiste": ""
+        },
+        "capitaine-flam":{
+            "theme": "animes",
+            "annee": "1970",
+            "nom": "capitaine flam",
+            "artiste": ""
+        },
+        "dragon-ball-z":{
+            "theme": "animes",
+            "annee": "1990",
+            "nom": "dragon ball z",
+            "artiste": ""
+        },
+        "heidi":{
+            "theme": "animes",
+            "annee": "1970",
+            "nom": "heidi",
+            "artiste": ""
+        },
+        "il-etait-une-fois-la-vie":{
+            "theme": "animes",
+            "annee": "1980",
+            "nom": "il etait une fois la vie",
+            "artiste": ""
+        },
+        "inspecteur-gadget":{
+            "theme": "animes",
+            "annee": "1980",
+            "nom": "inspecteur gadget",
+            "artiste": ""
+        },
+        "le-grand-musclor":{
+            "theme": "animes",
+            "annee": "1980",
+            "nom": "le grand musclor",
+            "artiste": ""
+        },
+        "les-cités-dor":{
+            "theme": "animes",
+            "annee": "1970",
+            "nom": "les cites d'or ",
+            "artiste": ""
+        },
+        "bisounours":{
+            "theme": "animes",
+            "annee": "1980",
+            "nom": "bisounours",
+            "artiste": ""
+        },
+        "popples":{
+            "theme": "animes",
+            "annee": "1980",
+            "nom": "Les popples",
+            "artiste": ""
+        },
+        "lile-aux-enfants":{
+            "theme": "animes",
+            "annee": "1970",
+            "nom": "l'ile aux enfants",
+            "artiste": ""
+        },
+        "maya-labeille":{
+            "theme": "animes",
+            "annee": "1970",
+            "nom": "maya l'abeille",
+            "artiste": ""
+        },
+        "remi-sans-famille":{
+            "theme": "animes",
+            "annee": "1970",
+            "nom": "remi sans famille",
+            "artiste": ""
+        },
+        "tom-sawyer":{
+            "theme": "animes",
+            "annee": "1980",
+            "nom": "tom sawyer",
+            "artiste": ""
+        },
+        "ulysse":{
+            "theme": "animes",
+            "annee": "1980",
+            "nom": "ulysse",
+            "artiste": ""
         }
+
     }
 }
