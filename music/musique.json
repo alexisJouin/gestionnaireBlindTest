@@ -493,13 +493,160 @@
             "nom": "top gun",
             "artiste": ""
         },
-        "you-call-it-love": {
+        "letudiante": {
             "theme": "films",
             "annee": "1990",
-            "nom": "you call it love",
+            "nom": "l'étudiante",
             "artiste": ""
         }
             
+    },
+    "play-list-valentin":{
+        "chill-bill": {
+            "theme": "playlist-valentin",
+            "annee": "2015",
+            "nom": "chill bill",
+            "artiste": "rob stone davis spooks"
+        },
+        "gummo": {
+            "theme": "playlist-valentin",
+            "annee": "2015",
+            "nom": "gummo",
+            "artiste": "6ix9ine"
+        },
+        "take-a-step-back": {
+            "theme": "playlist-valentin",
+            "annee": "2016",
+            "nom": "take a step back",
+            "artiste": "ski mask the slumb god xxxtentacion"
+        },
+        "beamer-boy": {
+            "theme": "playlist-valentin",
+            "annee": "2017",
+            "nom": "beamer boy",
+            "artiste": "lil peep"
+        },
+        "stoopid": {
+            "theme": "playlist-valentin",
+            "annee": "2018",
+            "nom": "stoopid",
+            "artiste": "6ix9ine"
+        },
+        "dior": {
+            "theme": "playlist-valentin",
+            "annee": "2019",
+            "nom": "dior",
+            "artiste": "pop smoke"
+        },
+        "big-drip": {
+            "theme": "playlist-valentin",
+            "annee": "2019",
+            "nom": "big drip",
+            "artiste": "fivio-foreign"
+        },
+        "gang-unit": {
+            "theme": "playlist-valentin",
+            "annee": "2019",
+            "nom": "gang unit",
+            "artiste": "lil loaded"
+        },
+        "shotta-flow": {
+            "theme": "playlist-valentin",
+            "annee": "2019",
+            "nom": "shotta flow",
+            "artiste": "blueface nle choppa"
+        },
+        "whoa wey": {
+            "theme": "playlist-valentin",
+            "annee": "2019",
+            "nom": "whoa wey",
+            "artiste": "lil pump 6ix9ine xxxtentacion scarlxrd"
+        },
+        "get-back": {
+            "theme": "playlist-valentin",
+            "annee": "2020",
+            "nom": "get back",
+            "artiste": "pop smoke"
+        },
+        "get-it": {
+            "theme": "playlist-valentin",
+            "annee": "2020",
+            "nom": "get it",
+            "artiste": "xxxtentacion skimask the slump god lil pump smokepurpp"
+        },
+        "hxe": {
+            "theme": "playlist-valentin",
+            "annee": "2020",
+            "nom": "hxe",
+            "artiste": "xxxtentacion 6ix9ine lil pump zillakami scarlxrd ghostemane suicideboys pouya"
+        },
+        "ok": {
+            "theme": "playlist-valentin",
+            "annee": "2020",
+            "nom": "ok",
+            "artiste": "xxxtentacion lil pump dababy juicewrld duki lil xan lilpeep ski mask 6ix9ine"
+        },
+        "shut-up": {
+            "theme": "playlist-valentin",
+            "annee": "2020",
+            "nom": "shut up",
+            "artiste": "6ix9ine xxxtentacion scarlxrd duki lit killah lil pump dababy"
+        },
+        "bubbly": {
+            "theme": "playlist-valentin",
+            "annee": "2021",
+            "nom": "bubbly",
+            "artiste": "young-thug-drake-travis-scott"
+        },
+        "run-it-up": {
+            "theme": "playlist-valentin",
+            "annee": "2021",
+            "nom": "run it up",
+            "artiste": "lil tjay"
+        },
+        "shake": {
+            "theme": "playlist-valentin",
+            "annee": "2021",
+            "nom": "shake",
+            "artiste": "ishowspeed"
+        },
+        "do-it-again": {
+            "theme": "playlist-valentin",
+            "annee": "2022",
+            "nom": "do it again",
+            "artiste": "nle choppa"
+        },
+        "ferrari": {
+            "theme": "playlist-valentin",
+            "annee": "2022",
+            "nom": "ferrari",
+            "artiste": "pop smoke central cee tion wayne russ million"
+        },
+        "gine": {
+            "theme": "playlist-valentin",
+            "annee": "2022",
+            "nom": "gine",
+            "artiste": "6ix9ine"
+        },
+        "lick-me-baby": {
+            "theme": "playlist-valentin",
+            "annee": "2022",
+            "nom": "lick me baby",
+            "artiste": "nle choppa"
+        },
+        "paranoid": {
+            "theme": "playlist-valentin",
+            "annee": "2022",
+            "nom": "paranoid",
+            "artiste": "lil tracy"
+        },
+        "run": {
+            "theme": "playlist-valentin",
+            "annee": "2022",
+            "nom": "run",
+            "artiste": "pop smoke juice wrld xxxtentacion ski mask the slump god"
+        }
+
     }
     
 }
