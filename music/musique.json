@@ -331,16 +331,16 @@
             "nom": "footloose",
             "artiste": ""
         },
+        "rain-man": {
+            "theme": "films",
+            "annee": "1980",
+            "nom": "rain man",
+            "artiste": ""
+        },
         "ghost": {
             "theme": "films",
             "annee": "1990",
             "nom": "ghost",
-            "artiste": ""
-        },
-        "rain-man": {
-            "theme": "films",
-            "annee": "19",
-            "nom": "rain man",
             "artiste": ""
         },
         "hey-pachuco-the-mask": {
@@ -466,7 +466,7 @@
         "star-wars": {
             "theme": "films",
             "annee": "1970",
-            "nom": "",
+            "nom": "star wars",
             "artiste": ""
         },
         "super-man": {
@@ -499,6 +499,7 @@
             "nom": "l'étudiante",
             "artiste": ""
         }
+        
             
     },
     "play-list-valentin":{
