@@ -1,21 +1,98 @@
-*{
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #c5a527;
     text-align: center;
 }
 
-h1{
-    color: aliceblue;
+img {
+    height: 150px;
+    margin-right: 100px;
+}
+
+nav {
+    display: flex;
+    background-color: #333;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: #c7a728;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
     text-align: center;
-    font-size: 100px;
-    margin: auto;
+    padding: 20px;
 }
 
-button{
-    width: auto;
-    height: 130px;
-    font-size: 30px;
+.button {
+    display: flex;
+    align-items: center;
 }
 
-body{
-    background-image: url("background3.jpg");
-    background-size: cover;
+.play{
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #333;
+    color: black;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.settings{
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #333;
+    color: black;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.play:hover {
+    background-color: #c7a728;
+    color: black;
+}
+
+.settings:hover {
+    background-color: #c7a728;
+    color: black;
+}
+
+p {
+    color: white;
 }
