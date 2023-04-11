@@ -26,6 +26,7 @@ img {
 
 nav {
     display: flex;
+    justify-content: center;
     background-color: #333;
     color: white;
 }
@@ -93,6 +94,6 @@ footer {
     color: black;
 }
 
-p {
+p,h2 {
     color: white;
 }
