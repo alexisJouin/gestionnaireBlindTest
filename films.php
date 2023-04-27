@@ -30,10 +30,10 @@
         
 
         $dossier = 'music';
-
+        
         // Tableau contenant les noms des dossiers à explorer
         $dossiers = array('films');
-
+        
         // Tableau pour stocker les fichiers trouvés
         $fichiers = array();
 
@@ -48,20 +48,23 @@
                 $fichiers = array_merge($fichiers, $fichiers_dossier);
             }
         }
+        $point=0;
         function aléatoire($fichiers){
+            global $point;
             // Choix aléatoire d'un fichier dans le tableau
             $fichier_aleatoire = $fichiers[array_rand($fichiers)];
-
+            $point++;
             // Affichage du nom du fichier choisi
             
             echo "<audio controls autoplay>";
             echo "<source src='",$fichier_aleatoire,"' type='audio/mpeg'>";
             echo "</audio>";
-            echo "<p>le fichier de la musique est ".$fichier_aleatoire."<p>";
-                
+            echo "<p>le fichier de la musique est ".$fichier_aleatoire.$point."<p>";
+            
         }
+
         echo aléatoire($fichiers);
-       
+        
         //programme pour fair un tableau avec les données json
         // $json_data = file_get_contents('music/musique.json');
         // $data = json_decode($json_data, true);
@@ -78,10 +81,9 @@
         //         }
         //     }
         // }
-        if (isset($_GET['submit'])) {
+        if (isset($_POST['submit'])) {
             
             echo aléatoire($fichiers);
-            
         }
     ?>
             <input type="text" name="answer" placeholder="Votre réponse">
