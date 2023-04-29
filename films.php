@@ -28,7 +28,7 @@
 
             <?php
         
-
+        session_start();
         $dossier = 'music';
         
         // Tableau contenant les noms des dossiers à explorer
@@ -49,6 +49,19 @@
             }
         }
         
+        //Fonction qui découpe le nom du fichier pour séparer les info
+        function découpe($fichier_aleatoire){
+            $découpe = explode('_', $fichier_aleatoire);
+            $_SESSION['annee'] = $découpe[1];
+            $nomExtension = $découpe[2];
+            $découpeNomExtension = explode('.',$nomExtension);
+            $_SESSION['nom'] = $découpeNomExtension[0]; 
+            $_SESSION['nom'] = str_replace("-"," ",$_SESSION['nom']);
+            //Affichage des info
+            echo "<p>nom du film: ".$_SESSION['nom']."<br>"; 
+            echo "année: ".$_SESSION['annee']."</p>";
+        }
+
         function aléatoire($fichiers){
             global $point;
             // Choix aléatoire d'un fichier dans le tableau
@@ -59,22 +72,26 @@
             echo "<audio controls autoplay>";
             echo "<source src='",$fichier_aleatoire,"' type='audio/mpeg'>";
             echo "</audio>";
+            découpe($fichier_aleatoire);
             echo "<p>le fichier de la musique est ".$fichier_aleatoire."</p>";
             echo "<p>nb de points ".$_SESSION['points']."<p>";
             
         }
 
         if (!isset($_SESSION['points'])) {
-                    $_SESSION['points'] = -1;
-                }
+            $_SESSION['points'] = -1;
+        }
         if (isset($_POST['bouton'])) {
-                    $_SESSION['points']++;
-                    echo aléatoire($fichiers);
-                }
+            if ($_POST['answer']==$_SESSION['nom']){
+                $_SESSION['points']++;
+            }
+            echo aléatoire($fichiers);
+        }
+
         if (isset($_POST["bouton1"])){
-    session_destroy();
-    $_SESSION['points']=-1;
-}
+            session_destroy();
+            $_SESSION['points']=-1;
+        }
         
         //programme pour fair un tableau avec les données json
         $json_data = file_get_contents('music/musique.json');
@@ -98,7 +115,9 @@
         }
     ?>
             <input type="text" name="answer" placeholder="Votre réponse">
-            <button type="submit">Valider</button>
+            <button type="submit" name="bouton">Valider</button>
+            <input type="submit" name="bouton1" value="reset">
+
         </form>
     </div>
     <footer>
