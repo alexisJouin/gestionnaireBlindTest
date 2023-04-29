@@ -94,6 +94,7 @@ footer {
     color: black;
 }
 
-p,h2,h3,label {
+ul,p,h2,h3,label {
     color: white;
 }
+
