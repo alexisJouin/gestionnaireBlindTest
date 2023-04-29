@@ -28,7 +28,7 @@
 
             <?php
         
-
+        session_start();
         $dossier = 'music';
         
         // Tableau contenant les noms des dossiers à explorer
@@ -48,22 +48,33 @@
                 $fichiers = array_merge($fichiers, $fichiers_dossier);
             }
         }
-        $point=0;
+        
         function aléatoire($fichiers){
-            global $point;
+
             // Choix aléatoire d'un fichier dans le tableau
             $fichier_aleatoire = $fichiers[array_rand($fichiers)];
-            $point++;
+            
             // Affichage du nom du fichier choisi
             
             echo "<audio controls autoplay>";
             echo "<source src='",$fichier_aleatoire,"' type='audio/mpeg'>";
             echo "</audio>";
-            echo "<p>le fichier de la musique est ".$fichier_aleatoire.$point."<p>";
+            echo "<p>le fichier de la musique est ".$fichier_aleatoire."</p>";
+            echo "<p>nb de points ".$_SESSION['points']."<p>";
             
         }
 
-        echo aléatoire($fichiers);
+        if (!isset($_SESSION['points'])) {
+                    $_SESSION['points'] = -1;
+                }
+        if (isset($_POST['bouton'])) {
+                    $_SESSION['points']++;
+                    echo aléatoire($fichiers);
+                }
+        if (isset($_POST["bouton1"])){
+    session_destroy();
+    $_SESSION['points']=-1;
+}
         
         //programme pour fair un tableau avec les données json
         // $json_data = file_get_contents('music/musique.json');
@@ -81,13 +92,11 @@
         //         }
         //     }
         // }
-        if (isset($_POST['submit'])) {
-            
-            echo aléatoire($fichiers);
-        }
+        
     ?>
             <input type="text" name="answer" placeholder="Votre réponse">
-            <button type="submit">Valider</button>
+            <button type="submit" name="bouton">Valider</button>
+            <input type="submit" name="bouton1" value="reset">
         </form>
     </div>
     <footer>
