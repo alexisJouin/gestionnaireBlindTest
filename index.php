@@ -10,8 +10,8 @@
         <h1>Blind Test</h1>
     </header>
     <div class="button">
-        <a href="play.html" class="play">Jouer</a>
-        <a href="settings.html" class="settings">Paramètres</a>
+        <a href="play.php" class="play">Jouer</a>
+        <a href="settings.php" class="settings">Paramètres</a>
     </div>
 </body>
 </html>
