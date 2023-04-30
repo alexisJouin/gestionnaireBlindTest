@@ -23,7 +23,7 @@
         <form method="post">
 
 
-        <p>Question : Quel est le titre de cette chanson ?</p>
+        <p>Question : Quel est le titre de ce film ?</p>
         
 
             <?php
@@ -81,14 +81,22 @@
         if (!isset($_SESSION['points'])) {
             $_SESSION['points'] = -1;
         }
-        if (isset($_POST['bouton'])) {
+        if (isset($_POST['boutonValider'])) {
             if ($_POST['answer']==$_SESSION['nom']){
                 $_SESSION['points']++;
+                if($_SESSION['points']>3){
+                    echo "<h2>Vous avez gagne!</h2>";
+                    session_destroy();
+                }else{
+                    echo aléatoire($fichiers);
+                }
+            }else{
+                echo aléatoire($fichiers);
             }
-            echo aléatoire($fichiers);
+            
         }
 
-        if (isset($_POST["bouton1"])){
+        if (isset($_POST["boutonReset"])){
             session_destroy();
             $_SESSION['points']=-1;
         }
@@ -109,14 +117,11 @@
         //         }
         //     }
         // }
-        if (isset($_POST['submit'])) {
-            
-            echo aléatoire($fichiers);
-        }
+
     ?>
             <input type="text" name="answer" placeholder="Votre réponse">
-            <button type="submit" name="bouton">Valider</button>
-            <input type="submit" name="bouton1" value="reset">
+            <button type="submit" name="boutonValider">Valider</button>
+            <input type="submit" name="boutonReset" value="reset">
 
         </form>
     </div>
